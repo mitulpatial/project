@@ -437,7 +437,75 @@ footer h6 {
 }
 
 @media screen and (max-width: 750px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .page-width {
+        padding: 0 10px;
+    }
     .sec1-content {
         padding: 5rem 0 0 0;
+    }
+    .sec1-wrapper {
+        flex-direction: column;
+    }
+    .bg_img1 {
+        background-image: none;
+        background-color: aquamarine;
+    }
+    .play-btn button {
+        margin-top: 0;
+    }
+    .normal_link {
+        display: none;
+    }
+    .button_link {
+        padding: 10px;
+    }
+    .header-links {
+        gap: 0;
+    }
+    .header-logo {
+        width: 150px;
+    }
+    .sec2-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .sec2-content {
+        padding: 1rem;
+    }
+    .sec3-wrapper {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+    .sec3-writeup {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sec3-plgram, .slanted {
+        height: 200px;
+    }
+    .products-wrapper {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .img-only {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .footer-links, .copyright .flex-div {
+        flex-direction: column;
+    }
+    .copyright {
+        padding: 2rem 0;
+    }
+    .copyright ul {
+        padding-top: 1rem;
+        justify-content: space-between;
     }
 }
